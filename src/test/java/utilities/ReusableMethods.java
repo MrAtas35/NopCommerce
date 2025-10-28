@@ -1,11 +1,11 @@
-package utils;
+package utilities;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
-public class ReusableMethods extends Basedriver {
+public class ReusableMethods extends BaseDriver {
     public static void threadWait(int seconds) {
         try {
             Thread.sleep(seconds * 1000L);
@@ -34,10 +34,6 @@ public class ReusableMethods extends Basedriver {
     public void scrollToElement(WebElement element) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true)", element);
-    }
-
-    public void verifyDisplayed(WebElement element, String text) {
-        Assert.assertTrue(element.isDisplayed(), text);
     }
 
     public void verifyContainsText(WebElement element, String text) {

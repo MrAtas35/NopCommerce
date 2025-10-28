@@ -1,4 +1,4 @@
-package utils;
+package utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeClass;
 
 import java.time.Duration;
 
-public class Basedriver {
+public class BaseDriver {
     public static WebDriver driver;
     public static WebDriverWait wait;
 
@@ -28,8 +28,8 @@ public class Basedriver {
                 break;
         }
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(ConfigReader.getIntProperty("pageloadtimeout")));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(ConfigReader.getIntProperty("explicit.wait")));
     }
 
     @AfterClass
