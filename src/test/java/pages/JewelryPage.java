@@ -6,14 +6,11 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.BaseDriver;
 import utilities.ReusableMethods;
 
-public class ComputersPage extends ReusableMethods {
-    public ComputersPage() {
+public class JewelryPage extends ReusableMethods {
+    public JewelryPage() {
         PageFactory.initElements(BaseDriver.driver,this);
     }
 
     @FindBy(xpath = "//div[@class='page-title']/h1")
-    public WebElement computersTitle;
-
-    @FindBy(xpath = "//a[@title='Show products in category Desktops']")
-    public WebElement desktopsBtn;
+    public WebElement jewelryTitle;
 }
