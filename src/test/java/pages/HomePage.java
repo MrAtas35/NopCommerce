@@ -46,4 +46,11 @@ public class HomePage extends ReusableMethods {
 
     @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[7]/a")
     public WebElement giftCardsBtn;
+
+    @FindBy(xpath = "//form[@method='get']/input")
+    public WebElement searchBox;
+
+    @FindBy(xpath = "//button[@type='submit']")
+    public WebElement searchBtn;
+
 }
