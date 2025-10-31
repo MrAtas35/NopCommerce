@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.BaseDriver;
 import utilities.ReusableMethods;
 
+import java.util.List;
+
 public class GiftCardsPage extends ReusableMethods {
     public GiftCardsPage() {
         PageFactory.initElements(BaseDriver.driver,this);
@@ -19,4 +21,7 @@ public class GiftCardsPage extends ReusableMethods {
 
     @FindBy(xpath = "(//ul[@class='top-menu notmobile']/li/a)[1]")
     public WebElement computersButton;
+
+    @FindBy(xpath ="//h2[@class='product-title']/a")
+    public List<WebElement> giftCards;
 }
