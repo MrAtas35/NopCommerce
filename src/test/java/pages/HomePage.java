@@ -26,6 +26,9 @@ public class HomePage extends ReusableMethods {
     @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[1]/a")
     public WebElement computersBtn;
 
+    @FindBy(xpath = "(//div[@class='header-links']/ul/li)[1]")
+    public WebElement registerBtn;
+  
     @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[2]/a")
     public WebElement electronicsBtn;
 
