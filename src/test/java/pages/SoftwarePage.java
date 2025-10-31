@@ -6,14 +6,18 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.BaseDriver;
 import utilities.ReusableMethods;
 
-public class ComputersPage extends ReusableMethods {
-    public ComputersPage() {
+public class SoftwarePage extends ReusableMethods {
+    public SoftwarePage() {
         PageFactory.initElements(BaseDriver.driver,this);
     }
 
     @FindBy(xpath = "//div[@class='page-title']/h1")
-    public WebElement computersTitle;
+    public WebElement softwareTitle;
 
-    @FindBy(xpath = "//a[@title='Show products in category Desktops']")
-    public WebElement desktopsBtn;
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[2]/a")
+    public WebElement electronicsBtn;
+
+    @FindBy(xpath = "(//ul[@class='sublist first-level']/li/a)[4]")
+    public WebElement cameraPhotoBtn;
+
 }

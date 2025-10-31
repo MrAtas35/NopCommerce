@@ -20,9 +20,30 @@ public class HomePage extends ReusableMethods {
     @FindBy(xpath = "//div[@class='header-links']/ul/li[2]/a")
     public WebElement loginBtn;
 
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']")
+    public WebElement tabMenu;
+
     @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[1]/a")
     public WebElement computersBtn;
 
     @FindBy(xpath = "(//div[@class='header-links']/ul/li)[1]")
     public WebElement registerBtn;
+  
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[2]/a")
+    public WebElement electronicsBtn;
+
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[3]/a")
+    public WebElement apparelBtn;
+
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[4]/a")
+    public WebElement digitalDownloadsBtn;
+
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[5]/a")
+    public WebElement booksBtn;
+
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[6]/a")
+    public WebElement jewelryBtn;
+
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[7]/a")
+    public WebElement giftCardsBtn;
 }
