@@ -20,9 +20,8 @@ public class US_502 extends ReusableMethods {
         hp.myClick(hp.loginBtn);
         lp.verifyContainsText(lp.loginPgText, "Welcome, Please Sign In!");
 
-        lp.mySendKeys(lp.emailInput, ConfigReader.getProperty("emailValid"));
-        lp.mySendKeys(lp.passwordInput, ConfigReader.getProperty("passwordValid"));
-        lp.myClick(lp.loginBtn);
+        lp.loginValidUser();
+
         hp.verifyContainsText(hp.myAccountBtn, "My account");
 
         hp.myClick(hp.myAccountBtn);
