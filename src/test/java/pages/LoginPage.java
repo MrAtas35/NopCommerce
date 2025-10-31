@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.BaseDriver;
+import utilities.ConfigReader;
 import utilities.ReusableMethods;
 
 public class LoginPage extends ReusableMethods {
@@ -22,4 +23,10 @@ public class LoginPage extends ReusableMethods {
 
     @FindBy(xpath = "(//button[@type='submit'])[2]")
     public WebElement loginBtn;
+
+    public void loginValidUser() {
+        mySendKeys(emailInput, ConfigReader.getProperty("emailValid"));
+        mySendKeys(passwordInput, ConfigReader.getProperty("passwordValid"));
+        myClick(loginBtn);
+    }
 }
