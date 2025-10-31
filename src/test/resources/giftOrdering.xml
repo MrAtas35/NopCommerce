@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UITesting">
+    <test name="Gift Ordering">
+        <classes>
+            <class name="US_506"/>
+        </classes>
+    </test>
+</suite>
