@@ -24,6 +24,12 @@ public class LoginPage extends ReusableMethods {
     @FindBy(xpath = "(//button[@type='submit'])[2]")
     public WebElement loginBtn;
 
+    @FindBy(id = "Email-error")
+    public WebElement negative2;
+
+    @FindBy(xpath = "//div[2]/form/div[1]")
+    public WebElement negative1;
+
     public void loginValidUser() {
         mySendKeys(emailInput, ConfigReader.getProperty("emailValid"));
         mySendKeys(passwordInput, ConfigReader.getProperty("passwordValid"));
