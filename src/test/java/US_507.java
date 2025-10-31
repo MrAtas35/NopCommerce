@@ -7,7 +7,7 @@ import utilities.ReusableMethods;
 
 public class US_507 extends ReusableMethods {
 
-    @Test
+    @Test(description = "Verifies the complete Computer Order Process from login to cart verification.")
     public void computerOrder() {
         LoginPage lp = new LoginPage();
         HomePage hp = new HomePage();
@@ -15,12 +15,10 @@ public class US_507 extends ReusableMethods {
         DesktopsPage dp = new DesktopsPage();
         BuildYourOwnComputerPage byoc = new BuildYourOwnComputerPage();
         ShoppingCartPage scp=new ShoppingCartPage();
-        driver.get(ConfigReader.getProperty("url"));
 
-        hp.myClick(hp.loginBtn);
-        lp.mySendKeys(lp.emailInput, ConfigReader.getProperty("emailValid"));
-        lp.mySendKeys(lp.passwordInput, ConfigReader.getProperty("passwordValid"));
-        lp.myClick(lp.loginBtn);
+        driver.get(ConfigReader.getProperty("url"));
+        myClick(hp.loginBtn);
+        lp.loginValidUser();
 
         myClick(hp.computersBtn);
         myClick(cp.desktopsBtn);
