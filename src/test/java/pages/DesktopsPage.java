@@ -22,5 +22,4 @@ public class DesktopsPage extends ReusableMethods {
 
     @FindBy(xpath = "(//ul[@class='top-menu notmobile']/li/a)[1]")
     public WebElement computersButton;
-
 }
