@@ -1,4 +1,4 @@
-<h1 align="center">🛒 NopCommerce Demo Store - Test Automation Project</h1>
+<h1 align="center"> NopCommerce Demo Store - Test Automation Project</h1>
 
 <p align="center">
   <b>Java | Selenium | TestNG | Maven</b><br>
@@ -26,6 +26,15 @@ It is built using **Selenium WebDriver** and **TestNG**, and follows the **Page 
 - 🧾 **Readable test reports via TestNG HTML output**
 
 ---
+
+| **Contributors** |
+| :--------------: |
+|    Gürhan Ataş   |
+| İbrahim Huseynli |
+|   Merve Çelebi   |
+|   Ramazan Doğan  |
+|   Sibel Cebeci   |
+
 
 | Technology                   | Version | Purpose                                |
 | :--------------------------- | :-----: | :------------------------------------- |
