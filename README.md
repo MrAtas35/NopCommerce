@@ -1,8 +1,18 @@
-<h1 align="center">🛒 NopCommerce Demo Store - Test Automation Project</h1>
+<h1 align="center" style="font-family: 'Segoe UI', sans-serif; font-weight: 700;">
+  NopCommerce Demo Store - Test Automation Project
+</h1>
 
 <p align="center">
-  <b>Java · Selenium · TestNG · Maven</b><br>
-  <i>Automated UI Testing Framework for</i> <a href="https://demo.nopcommerce.com/" target="_blank">NopCommerce Demo Store</a>
+  <a href="#"><img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk&logoColor=white"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Selenium-4.36.0-brightgreen?style=for-the-badge&logo=selenium&logoColor=white"></a>
+  <a href="#"><img src="https://img.shields.io/badge/TestNG-7.11.0-red?style=for-the-badge&logo=testng&logoColor=white"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Maven-3.2.5+-blue?style=for-the-badge&logo=apachemaven&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <i>Automated UI Testing Framework built with Java, Selenium, TestNG, and Maven</i><br>
+  for validating user journeys on the 
+  <a href="https://demo.nopcommerce.com/" target="_blank"><b>NopCommerce Demo Store</b></a>
 </p>
 
 ---
@@ -35,12 +45,12 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 
 | Technology                   | Version | Purpose                                |
 | :--------------------------- | :-----: | :------------------------------------- |
-| <b>Java</b> ☕                |    21   | Core language used for test automation |
-| <b>Selenium WebDriver</b> 🌐 |  4.36.0 | Browser automation framework           |
-| <b>TestNG</b> 🧩             |  7.11.0 | Test management & parallel execution   |
-| <b>Maven</b> 🧰              |  3.2.5+ | Dependency management & build tool     |
-| <b>Log4j</b> 🪵              |   3.0   | Logging & debugging                    |
-| <b>Jackson</b> 📄            |  2.20.0 | JSON parsing & data binding            |
+| **Java** | 21 | Core language used for test automation |
+| **Selenium WebDriver** | 4.36.0 | Browser automation framework           |
+| **TestNG** | 7.11.0 | Test management & parallel execution   |
+| **Maven** | 3.2.5+ | Dependency management & build tool     |
+| **Log4j** | 3.0 | Logging & debugging                    |
+| **Jackson** | 2.20.0 | JSON parsing & data binding            |
 
 ---
 
@@ -63,10 +73,10 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 
 |          **Contributors**         |
 | :-------------------------------: |
-| 🧭 Gürhan Ataş *(Project Leader)* |
-|          İbrahim Huseynli         |
-|            Merve Çelebi           |
-|           Ramazan Doğan           |
-|            Sibel Cebeci           |
+| Gürhan Ataş *(Project Leader)* |
+| İbrahim Huseynli |
+| Merve Çelebi |
+| Ramazan Doğan |
+| Sibel Cebeci |
 
 </div>
