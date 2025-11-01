@@ -26,7 +26,6 @@ public class US_506 extends ReusableMethods {
         myClick(hp.giftCardsBtn);
         lp.verifyContainsText(gc.giftCardsTitle, "Gift Cards");
 
-
         myClick(gc.giftCards.get((int) (Math.random() * 2) + 1));
 
         pc.textYourName.clear();

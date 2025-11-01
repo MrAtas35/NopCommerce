@@ -8,7 +8,7 @@ import utilities.ReusableMethods;
 
 public class AccessoriesPage extends ReusableMethods {
     public AccessoriesPage() {
-        PageFactory.initElements(BaseDriver.driver,this);
+        PageFactory.initElements(BaseDriver.driver, this);
     }
 
     @FindBy(xpath = "//div[@class='page-title']/h1")

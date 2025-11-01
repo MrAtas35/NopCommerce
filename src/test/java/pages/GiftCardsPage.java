@@ -10,7 +10,7 @@ import java.util.List;
 
 public class GiftCardsPage extends ReusableMethods {
     public GiftCardsPage() {
-        PageFactory.initElements(BaseDriver.driver,this);
+        PageFactory.initElements(BaseDriver.driver, this);
     }
 
     @FindBy(xpath = "//div[@class='page-title']/h1")
@@ -22,6 +22,6 @@ public class GiftCardsPage extends ReusableMethods {
     @FindBy(xpath = "(//ul[@class='top-menu notmobile']/li/a)[1]")
     public WebElement computersButton;
 
-    @FindBy(xpath ="//h2[@class='product-title']/a")
+    @FindBy(xpath = "//h2[@class='product-title']/a")
     public List<WebElement> giftCards;
 }

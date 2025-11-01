@@ -58,7 +58,6 @@ public class US_505 extends ReusableMethods {
         for (WebElement product : np.productTitles) {
             searchResults.add(product.getText());
         }
-
         boolean resultFound = searchResults.contains(randomNotebook);
         Assert.assertTrue(resultFound,
                 "Products not found in search results" + randomNotebook);

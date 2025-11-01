@@ -19,5 +19,4 @@ public class SoftwarePage extends ReusableMethods {
 
     @FindBy(xpath = "(//ul[@class='sublist first-level']/li/a)[4]")
     public WebElement cameraPhotoBtn;
-
 }
