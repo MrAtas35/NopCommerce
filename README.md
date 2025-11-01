@@ -1,31 +1,34 @@
-<h1 align="center"> NopCommerce Demo Store - Test Automation Project</h1>
+<h1 align="center">🛒 NopCommerce Demo Store - Test Automation Project</h1>
 
 <p align="center">
-  <b>Java | Selenium | TestNG | Maven</b><br>
-  Functional UI Test Automation Framework for the <a href="https://demo.nopcommerce.com/" target="_blank">NopCommerce Demo Store</a>
+  <b>Java · Selenium · TestNG · Maven</b><br>
+  <i>Automated UI Testing Framework for</i> <a href="https://demo.nopcommerce.com/" target="_blank">NopCommerce Demo Store</a>
 </p>
 
 ---
 
 ## 🧩 Overview
 
-This project is a **GUI Test Automation Framework** designed to validate core user journeys on the NopCommerce e-commerce platform.  
-It is built using **Selenium WebDriver** and **TestNG**, and follows the **Page Object Model (POM)** design pattern for maintainability and scalability.
+This project is a **Test Automation Framework** created to ensure the functional stability and reliability of the NopCommerce demo website.  
+It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the **Page Object Model (POM)** design pattern for maintainability and scalability.
 
-> 🎯 Goal: Automate key flows such as Registration, Login, Product Search, and Order Processes.
+> 🧠 The framework validates essential user workflows such as Registration, Login, Product Navigation, and Ordering — providing reusable, organized, and easily maintainable test architecture.
 
 ---
 
 ## ✨ Key Features
 
-- 🧱 **Page Object Model (POM)** architecture  
-- ⚙️ **Reusable utility methods** and configurations  
-- 🧪 **User Story–based test structure**  
-- 🖥️ **Cross-browser ready** (Chrome, Firefox, Edge)  
-- 📁 **Centralized ConfigReader for environment setup**  
-- 🧾 **Readable test reports via TestNG HTML output**
+| Capability | Description |
+|:------------|:-------------|
+| **Page Object Model (POM)** | Clean separation of test logic and UI elements |
+| **Reusable Methods** | Common utilities for consistent and efficient scripting |
+| **Parameterized Testing** | Dynamic data-driven test execution |
+| **Cross-Browser Support** | Compatible with Chrome, Firefox, and Edge |
+| **Configurable Environment** | Custom setup via `configuration.properties` |
+| **Comprehensive Reporting** | Readable TestNG HTML test results with logging |
 
 ---
+
 
 |          **Contributors**         |
 | :-------------------------------: |
