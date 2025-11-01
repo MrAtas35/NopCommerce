@@ -27,13 +27,14 @@ It is built using **Selenium WebDriver** and **TestNG**, and follows the **Page 
 
 ---
 
-| **Contributors** |
-| :--------------: |
-|    Gürhan Ataş   |
-| İbrahim Huseynli |
-|   Merve Çelebi   |
-|   Ramazan Doğan  |
-|   Sibel Cebeci   |
+|          **Contributors**         |
+| :-------------------------------: |
+| 🧭 Gürhan Ataş *(Project Leader)* |
+|          İbrahim Huseynli         |
+|            Merve Çelebi           |
+|           Ramazan Doğan           |
+|            Sibel Cebeci           |
+
 
 
 | Technology                   | Version | Purpose                                |
