@@ -79,4 +79,7 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 | Ramazan Doğan |
 | Sibel Cebeci |
 
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3duM2dkZ3U1NTh3eW1kZjZmdXBmMTV4MW1nNnRpOGVybjl5M3Z6cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/YTbZzCkRQCEJa/giphy.gif" width="600" alt="Automation GIF">
+
+
 </div>
