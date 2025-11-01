@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.BaseDriver;
 import utilities.ReusableMethods;
 
+import java.util.List;
+
 public class HomePage extends ReusableMethods {
     public HomePage() {
         PageFactory.initElements(BaseDriver.driver, this);
@@ -47,6 +49,17 @@ public class HomePage extends ReusableMethods {
     @FindBy(xpath = "//ul[@class='top-menu notmobile']/li[7]/a")
     public WebElement giftCardsBtn;
 
+    @FindBy(xpath = "/html/body/div[6]/div[2]/ul[1]/li")
+    public List<WebElement> tabMenuAll;
+
+    @FindBy(xpath = "//div[2]/ul[1]/li[1]/ul/li")
+    public List<WebElement> computersSubMenuAll;
+
+    @FindBy(id = "small-searchterms")
+    public WebElement searchInput;
+
+    @FindBy(xpath = "//form[@id='small-search-box-form']/button")
+    public WebElement searchBtn;
     @FindBy(xpath = "//form[@method='get']/input")
     public WebElement searchBox;
 

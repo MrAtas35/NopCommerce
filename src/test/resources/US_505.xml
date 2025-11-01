@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Product Search">
+    <test name="Random Notebooks Search">
+        <parameter name="Notebook1" value="Apple MacBook Pro"/>
+        <parameter name="Notebook2" value="Asus Laptop"/>
+        <parameter name="Notebook3" value="HP Envy 15.6-Inch Sleekbook"/>
+        <parameter name="Notebook4" value="HP Spectre XT Pro UltraBook"/>
+        <parameter name="Notebook5" value="Lenovo Thinkpad Carbon Laptop"/>
+        <parameter name="Notebook6" value="Samsung Premium Ultrabook"/>
+<classes>
+    <class name="US_505"/>
+</classes>
+    </test>
+</suite>
