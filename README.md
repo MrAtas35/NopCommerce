@@ -1,10 +1,13 @@
-<h1 align="center">🛒 <b>NopCommerce Demo Store</b></h1>
-<h3 align="center">💻 Test Automation Project</h3>
+<h1 align="center">🛒 NopCommerce Demo Store - Test Automation Project</h1>
 
 <p align="center">
-  <i>Automated UI Testing Framework built with</i><br>
-  <b>Java · Selenium · TestNG · Maven</b>
+  <b>Java · Selenium · TestNG · Maven</b><br>
+  <i>Automated UI Testing Framework for</i> <a href="https://demo.nopcommerce.com/" target="_blank">NopCommerce Demo Store</a>
 </p>
+
+---
+
+<div align="center">
 
 ## 🧩 Overview
 
