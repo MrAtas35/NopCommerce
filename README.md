@@ -30,15 +30,6 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 ---
 
 
-|          **Contributors**         |
-| :-------------------------------: |
-| 🧭 Gürhan Ataş *(Project Leader)* |
-|          İbrahim Huseynli         |
-|            Merve Çelebi           |
-|           Ramazan Doğan           |
-|            Sibel Cebeci           |
-
-
 
 | Technology                   | Version | Purpose                                |
 | :--------------------------- | :-----: | :------------------------------------- |
@@ -61,4 +52,14 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 | **US_506** | Gift order workflow                  | 🟢 Passed |
 | **US_507** | Computer order process               | 🟢 Passed |
 | **US_508** | Parameterized search                 | 🟢 Passed |
+
+
+
+|          **Contributors**         |
+| :-------------------------------: |
+| 🧭 Gürhan Ataş *(Project Leader)* |
+|          İbrahim Huseynli         |
+|            Merve Çelebi           |
+|           Ramazan Doğan           |
+|            Sibel Cebeci           |
 
