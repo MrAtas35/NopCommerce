@@ -7,6 +7,8 @@
 
 ---
 
+<div align="center">
+
 ## 🧩 Overview
 
 This project is a **Test Automation Framework** created to ensure the functional stability and reliability of the NopCommerce demo website.  
@@ -29,7 +31,7 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 
 ---
 
-
+## 🛠️ Tech Stack
 
 | Technology                   | Version | Purpose                                |
 | :--------------------------- | :-----: | :------------------------------------- |
@@ -40,7 +42,9 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 | <b>Log4j</b> 🪵              |   3.0   | Logging & debugging                    |
 | <b>Jackson</b> 📄            |  2.20.0 | JSON parsing & data binding            |
 
+---
 
+## 📊 Test Coverage Summary
 
 | User Story | Scenario                             |   Status  |
 | :--------- | :----------------------------------- | :-------: |
@@ -53,7 +57,9 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 | **US_507** | Computer order process               | 🟢 Passed |
 | **US_508** | Parameterized search                 | 🟢 Passed |
 
+---
 
+## 👥 Contributors
 
 |          **Contributors**         |
 | :-------------------------------: |
@@ -63,3 +69,4 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 |           Ramazan Doğan           |
 |            Sibel Cebeci           |
 
+</div>
