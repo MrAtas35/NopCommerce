@@ -41,18 +41,6 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 
 ---
 
-##  Tech Stack
-
-| Technology                   | Version | Purpose                                |
-| :--------------------------- | :-----: | :------------------------------------- |
-| **Java** | 21 | Core language used for test automation |
-| **Selenium WebDriver** | 4.36.0 | Browser automation framework           |
-| **TestNG** | 7.11.0 | Test management & parallel execution   |
-| **Maven** | 3.2.5+ | Dependency management & build tool     |
-| **Log4j** | 3.0 | Logging & debugging                    |
-| **Jackson** | 2.20.0 | JSON parsing & data binding            |
-
----
 
 ## Test Coverage Summary
 
