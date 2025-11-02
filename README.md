@@ -19,16 +19,16 @@
 
 <div align="center">
 
-## 🧩 Overview
+## Overview
 
 This project is a **Test Automation Framework** created to ensure the functional stability and reliability of the NopCommerce demo website.  
 It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the **Page Object Model (POM)** design pattern for maintainability and scalability.
 
-> 🧠 The framework validates essential user workflows such as Registration, Login, Product Navigation, and Ordering — providing reusable, organized, and easily maintainable test architecture.
+> The framework validates essential user workflows such as Registration, Login, Product Navigation, and Ordering — providing reusable, organized, and easily maintainable test architecture.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 | Capability | Description |
 |:------------|:-------------|
@@ -41,7 +41,7 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology                   | Version | Purpose                                |
 | :--------------------------- | :-----: | :------------------------------------- |
@@ -54,7 +54,7 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 
 ---
 
-## 📊 Test Coverage Summary
+## Test Coverage Summary
 
 | User Story | Scenario                             |   Status  |
 | :--------- | :----------------------------------- | :-------: |
@@ -69,7 +69,7 @@ It is built with **Java**, **Selenium WebDriver**, and **TestNG**, following the
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 |          **Contributors**         |
 | :-------------------------------: |
